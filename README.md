@@ -40,13 +40,13 @@ We:
 
 Below is a preview of the cleaned dataset with some columns removed due to being complicated to display below:
 
-|       | name                                                        |   minutes |   n_steps |   n_ingredients |   average_rating |   Calories |   Sugar |
-|------:|:------------------------------------------------------------|----------:|----------:|----------------:|-----------------:|-----------:|--------:|
-| 26198 | dublin lawyer   lobster dublin style with whiskey and cream |        40 |         8 |               8 |                5 |      570.2 |       0 |
-| 76699 | the peacock    my version                                   |         3 |         5 |               6 |                5 |      104   |       0 |
-| 59254 | poultry seasoning substitute                                |         1 |         1 |               2 |                5 |        2.6 |       0 |
-| 44438 | lil bit of sunshine                                         |         3 |         4 |               3 |                5 |      138.7 |       0 |
-| 56460 | peppermint chai tea                                         |        13 |         8 |               9 |                5 |        2.5 |       0 |
+| Index  | Name                                                        | Minutes | Steps | Ingredients | Avg Rating | Calories | Sugar |
+|--------|------------------------------------------------------------|--------:|------:|------------:|-----------:|---------:|------:|
+| 26198  | dublin lawyer lobster dublin style with whiskey and cream |      40 |     8 |           8 |          5 |    570.2 |     0 |
+| 76699  | the peacock my version                                      |       3 |     5 |           6 |          5 |    104   |     0 |
+| 59254  | poultry seasoning substitute                                |       1 |     1 |           2 |          5 |      2.6 |     0 |
+| 44438  | lil bit of sunshine                                         |       3 |     4 |           3 |          5 |    138.7 |     0 |
+| 56460  | peppermint chai tea                                         |      13 |     8 |           9 |          5 |      2.5 |     0 |
 ---
 
 ## Univariate Analysis
