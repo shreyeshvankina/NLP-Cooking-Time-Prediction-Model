@@ -211,7 +211,7 @@ features alone are not enough to predict ratings well.
 
 ---
 
-# Step 7: Final Model
+# Final Model
 
 For our final model, we decided to use a RandomForestRegressor and experimented with different hyperparameters and features. However, it was very hard to improve models to predict the continuous column `average_rating` so we decided to move on toward a different approach. We transformed the problem into a classification task by rounding ratings to the nearest integer, allowing the model to focus on broader rating categories.
 
@@ -243,7 +243,7 @@ This model had the highest accuracy while also accounting for overfitting and co
 
 The model worked better because we grouped ratings into categories and added details about how complex a recipe is and what's in it.
 
-# Step 8: Fairness Analysis
+# Fairness Analysis
 
 For fairness analysis, we decided to test whether our model is equally predictive for old and new recipes. Namely, we want to see if the model will be less accurate at predicting the rating of old recipes (before 2008) vs new recipes (2008 and after). We are conducting this test because it would make sense that old recipes have less quality control on reporting accurate calorie count, ingredients, etc.
 
